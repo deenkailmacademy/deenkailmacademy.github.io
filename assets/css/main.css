@@ -1312,3 +1312,21 @@ section,
 .starter-section {
   /* Add your styles here */
 }
+
+.bi-fl-in::before {
+  width: .875em;
+  /* Icon */
+  content: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' id='flag-icons-in' viewBox='0 0 512 512'%3E%3Cpath fill='%23f93' d='M0 0h512v170.7H0z'/%3E%3Cpath fill='%23fff' d='M0 170.7h512v170.6H0z'/%3E%3Cpath fill='%23128807' d='M0 341.3h512V512H0z'/%3E%3Cg transform='translate(256 256)scale(3.41333)'%3E%3Ccircle r='20' fill='%23008'/%3E%3Ccircle r='17.5' fill='%23fff'/%3E%3Ccircle r='3.5' fill='%23008'/%3E%3Cg id='in-d'%3E%3Cg id='in-c'%3E%3Cg id='in-b'%3E%3Cg id='in-a' fill='%23008'%3E%3Ccircle r='.9' transform='rotate(7.5 -8.8 133.5)'/%3E%3Cpath d='M0 17.5.6 7 0 2l-.6 5z'/%3E%3C/g%3E%3Cuse xlink:href='%23in-a' width='100%25' height='100%25' transform='rotate(15)'/%3E%3C/g%3E%3Cuse xlink:href='%23in-b' width='100%25' height='100%25' transform='rotate(30)'/%3E%3C/g%3E%3Cuse xlink:href='%23in-c' width='100%25' height='100%25' transform='rotate(60)'/%3E%3C/g%3E%3Cuse xlink:href='%23in-d' width='100%25' height='100%25' transform='rotate(120)'/%3E%3Cuse xlink:href='%23in-d' width='100%25' height='100%25' transform='rotate(-120)'/%3E%3C/g%3E%3C/svg%3E");
+}
+
+.bi-fl-us::before {
+  width: .875em;
+  /* Icon */
+  content: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' id='flag-icons-us' viewBox='0 0 512 512'%3E%3Cpath fill='%23bd3d44' d='M0 0h512v512H0'/%3E%3Cpath stroke='%23fff' stroke-width='40' d='M0 58h512M0 137h512M0 216h512M0 295h512M0 374h512M0 453h512'/%3E%3Cpath fill='%23192f5d' d='M0 0h390v275H0z'/%3E%3Cmarker id='us-a' markerHeight='30' markerWidth='30'%3E%3Cpath fill='%23fff' d='m15 0 9.3 28.6L0 11h30L5.7 28.6'/%3E%3C/marker%3E%3Cpath fill='none' marker-mid='url(%23us-a)' d='m0 0 18 11h65 65 65 65 66L51 39h65 65 65 65L18 66h65 65 65 65 66L51 94h65 65 65 65L18 121h65 65 65 65 66L51 149h65 65 65 65L18 177h65 65 65 65 66L51 205h65 65 65 65L18 232h65 65 65 65 66z'/%3E%3C/svg%3E%0A");
+}
+
+.bi-fl-ae::before {
+  width: .875em;
+  /* Icon */
+  content: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' id='flag-icons-ae' viewBox='0 0 512 512'%3E%3Cpath fill='%2300732f' d='M0 0h512v170.7H0z'/%3E%3Cpath fill='%23fff' d='M0 170.7h512v170.6H0z'/%3E%3Cpath fill='%23000001' d='M0 341.3h512V512H0z'/%3E%3Cpath fill='red' d='M0 0h180v512H0z'/%3E%3C/svg%3E%0A");
+}
