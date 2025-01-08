@@ -1074,7 +1074,7 @@ section,
 }
 
 .courses .service-item p {
-  margin-bottom: 0;
+
   color: color-mix(in srgb, var(--default-color), transparent 40%);
   transition: 0.3s;
 }
